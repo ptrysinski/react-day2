@@ -1,13 +1,12 @@
 import React from 'react'
-import AppBar from '@material-ui/core/AppBar'
-import Toolbar from '@material-ui/core/Toolbar'
-import Typography from '@material-ui/core/Typography'
-import IconButton from '@material-ui/core/IconButton'
-import MenuIcon from '@material-ui/icons/Menu'
 import MUIAppBar from './AppBar'
+import MUISideBar from './SideBar';
 
 const Navigation = (props) => (
-    <MUIAppBar></MUIAppBar>
+    <div>
+        <MUIAppBar />
+        <MUISideBar />
+    </div>
 )
 
 export default Navigation
