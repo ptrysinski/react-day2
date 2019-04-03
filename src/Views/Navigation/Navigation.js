@@ -5,7 +5,7 @@ import MUISideBar from './SideBar';
 const Navigation = (props) => (
     <div>
         <MUIAppBar />
-        <MUISideBar />
+        {/* <MUISideBar /> */}
     </div>
 )
 
